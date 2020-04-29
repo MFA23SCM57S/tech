@@ -1,52 +1,22 @@
 <!DOCTYPE html>
-<!--
-Welcome to the tutorial page for HTML5! What you are reading right now is a comment. Anything within the comment notation is ignored by a browser when it renders your webpage, so people will only see it when they inspect your code (in Chrome, ctrl-U). All you have to do is use the following notation:
--->
-
-<!-- this is a comment -->
-
-<!--
-I'll be putting some helpful hints in the comments in this file that will guide you through creating a well-formed HTML document.
-Notice the very first line of this document. That is doctype definition for the page. It must appear just as it does above, and it must always be the first line in any HTML document. You can just copy and paste this into your webpages.
--->
 
 <html xml:lang="en" lang="en">
-<!--The tag above is the HTML tag that encloses all HTML5 content on a page. Just like the doctype definition, it must be exactly as it is in this file and should be the second line of your file.-->
-
+	
 <head>
 	<meta charset="utf-8" />
-<!--You need this meta tag for well-formed HTML5. Don't worry about why. That's a topic for another class. Just make sure your pages have it.-->
 
-<!--All HTML documents have two required sections: the head and body. The head contains information like:
-	* the title that appears in the browser tab and on search engine results
-	* links to the CSS documents that style the page
-	* meta tags that describe the page content
-Below are some examples
--->
+	<title>Humidifier Instructions</title>
 
-<!--The title tells the browser what to write in the tab area, and tells search engines what to call the page-->
-	<title>Instructions</title>
-
-<!--This meta tag tells search engines what to list below your site title. It's optional, but it looks good-->
-	<meta name="description" content="Instructions" />
+	<meta name="description" content="Humidifier Instructions" />
 	
-<!--You can included this meta tag if you would like to request that robots not index your page for search engines, though you should think about why you are posting that content on the web-->
 	<meta name="robots" content="noindex">	
 
-<!--The link elements tell the browser where to find the style sheets that control the appearance of your page-->
 	<link rel="stylesheet" type="text/css" media="screen" href="./css/responsive.css" />
-<!--Don't worry about CSS right now. We'll get to that soon. You'll want these link elements later when you are using CSS to style your page.-->
-
+	
 </head>
 
 <body>
-<!--
-The body contains the content of the web page that you want displayed in the browser window. It can contain any variety of elements. There are some rules that you must follow when you are marking up your documents with HTML5:
-	1. Elements are the tags that you use to mark up your text, like so: <em>
-	2. All elements that you open must close, like so: </em>
-	3. Elements can be nested, but they must open and close in order (the most recent element must close before you close a previously opened element)
-	4. You must follow the rules of HTML5 elements in order to make well-formed HTML. Some elements are only allowed to be self closing, such as <img src="$" alt="$" /> or <br />.
--->
+
 <div id="page">
 
 <header>
@@ -58,7 +28,6 @@ The body contains the content of the web page that you want displayed in the bro
 <section>
 <h2>Brief First Use Placement Instrucions</h2>
 	<ul>
-	
 		<li><img src="./images/120V.jpg" alt="Image of a 120V AC Electrical Outlet" /><p>It is reccomended to plug the humidifier directly into a wall outlet to avoid risk of fire or shock</p></li>
 		<li><p>Keep humidifier out of areas where people may accidently trip over the humidifier. <strong>DO NOT </strong> place any wires or cords under rugs or near areas of increased heat due to higher risk of a fire hazard.</p></li>
 		<li><p>Locate your humidifier by a wall near an electrical outlet. The humidifier should be at least 4 inches (10 cm) away from the wall for best results.</p></li>
@@ -104,10 +73,6 @@ The body contains the content of the web page that you want displayed in the bro
 		<li><p>Use both hands when carrying full tank of water.</p></li>
 	</ol>
 </section>
-<!--
-Notice the section tags above. These allow you to separate distinct content areas in your page and will later help you with styling.
-The id attribute allows you to differentiate sections on the page.
--->
 
 <section id="Safety">
 <h2>Consumer Safety Information</h2>
@@ -147,7 +112,6 @@ The id attribute allows you to differentiate sections on the page.
 		<li><p>Changes or modifications not expressly approved by the party responsible for compliance could void the user's authority to operate the equipment.</p></li>
 	</ul>
 </section>
-
 
 </div>
 </body>
